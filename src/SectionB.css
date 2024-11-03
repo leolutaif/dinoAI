@@ -1,0 +1,119 @@
+/* Container geral da janela */
+.window98-container {
+    width: 480px; /* Aumentado de 400px para 480px */
+    border: 2px solid #808080;
+    background-color: #c0c0c0;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    font-family: 'Tahoma', sans-serif;
+    margin-left: 680px;
+    margin-top: -430px; /* Aumentado de 100px para 120px */
+} 
+
+/* Barra de título com estilo Windows 98 */
+.window98-title-bar {
+    background-color: #000080;
+    color: white;
+    padding: 4px; /* Aumentado de 3px para 4px */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px; /* Aumentado de 25px para 30px */
+    border-bottom: 2px solid #808080;
+}
+
+.window98-title {
+    font-size: 16px; /* Aumentado de 14px para 16px */
+    margin-left: 10px; /* Aumentado de 8px para 10px */
+}
+
+/* Botão de fechar */
+.close-btn {
+    background-color: #c0c0c0;
+    border: 1px solid #fff;
+    color: black;
+    font-size: 16px; /* Aumentado de 14px para 16px */
+    cursor: pointer;
+    width: 24px; /* Aumentado de 20px para 24px */
+    height: 24px; /* Aumentado de 20px para 24px */
+    margin-right: 10px; /* Aumentado de 8px para 10px */
+    text-align: center;
+    padding: 0;
+    line-height: 20px; /* Aumentado de 16px para 20px */
+}
+
+/* Hover no botão de fechar */
+.close-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+/* Abas */
+.window98-tabs {
+    display: flex;
+    background-color: #e0e0e0;
+    padding: 4px; /* Aumentado de 2px para 4px */
+    border-bottom: 2px solid #808080;
+}
+
+.tab {
+    background-color: #c0c0c0;
+    border: 1px solid #808080;
+    padding: 4px 10px; /* Aumentado de 2px 8px para 4px 10px */
+    margin-right: 4px; /* Aumentado de 2px para 4px */
+    cursor: pointer;
+    font-size: 14px; /* Aumentado de 12px para 14px */
+    transition: background-color 0.2s;
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: black; /* Certifica-se de que a cor do texto é preta */
+}
+
+.tab.active {
+    background-color: #fff;
+    border-bottom: none;
+    border-right: 1px solid #808080;
+}
+
+/* Hover nas abas */
+.tab:hover {
+    background-color: #00ff00;
+}
+
+/* Conteúdo */
+.window98-content {
+    padding: 12px; /* Aumentado de 10px para 12px */
+    background-color: white;
+    border: 1px solid #a0a0a0;
+    font-size: 14px; /* Aumentado de 12px para 14px */
+    color: black;
+}
+
+.content-box {
+    margin-bottom: 12px; /* Aumentado de 10px para 12px */
+}
+
+.content-box p {
+    margin: 6px 0; /* Aumentado de 5px para 6px */
+}
+
+/* Rodapé */
+.window98-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px; /* Aumentado de 8px para 10px */
+    background-color: #e0e0e0;
+    border-top: 2px solid #808080;
+}
+
+.footer-btn {
+    background-color: #c0c0c0;
+    border: 1px solid #808080;
+    padding: 4px 12px; /* Aumentado de 2px 10px para 4px 12px */
+    margin-left: 6px; /* Aumentado de 5px para 6px */
+    cursor: pointer;
+    font-size: 14px; /* Aumentado de 12px para 14px */
+    box-shadow: 1px 1px 0 #fff inset;
+}
+
+.footer-btn:hover {
+    background-color: #fff;
+}

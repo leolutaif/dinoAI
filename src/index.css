@@ -1,0 +1,14 @@
+/* index.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #017F8A;
+    background-size: 1920px 1080px; /* Define o tamanho exato da imagem */
+    background-repeat: no-repeat; /* Impede repetição */
+    height: 100vh;
+    overflow: hidden;
+}

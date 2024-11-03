@@ -1,0 +1,197 @@
+.Boxgame {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 1900px;
+    height: 300px;
+    border: solid black 2px;
+    background-image: url('/skyadadada.jpg'); /* Substitua pelo caminho correto */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.95),  /* Sombra embaixo */
+                0 -4px 10px rgba(0, 0, 0, 0.95), /* Sombra em cima */
+                -4px 0 10px rgba(0, 0, 0, 0.95),  /* Sombra à esquerda */
+                4px 0 10px rgba(0, 0, 0, 0.95);   /* Sombra à direita */
+}
+
+
+@font-face {
+    font-family: 'myfontt';
+    src: url('/public/Minecraft.ttf') format('truetype');
+}
+
+.boxfail{
+    height: 180px;
+    width: 250px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 795px;
+    margin-top: -290px;
+}
+
+
+.boxfail h1{
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: myfontt;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.boxfail .botaogame {
+    height:35px;
+    width: 130px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.2s ease; /* Define a transição para o efeito de aumento */
+    cursor: pointer; /* Muda o cursor para mãozinha */
+}
+
+.boxfail .botaogame:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do botão para 110% */
+    background-color: rgb(3, 170, 3);
+
+}
+
+.botaogame p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: myfontt;
+    letter-spacing: 2px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.toptext{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 700px;
+    margin-top: 40px;
+}
+
+.boxfail h2{
+    font-size: 30px;
+    color: rgb(207, 194, 6);
+    margin-left: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: myfontt;
+    letter-spacing: 2px;
+}
+
+.desktop-icons {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em uma coluna */
+    position: relative;
+    height: 900px;
+    width: 120px;
+    margin-top: -410px;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.iconA img{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    margin-left: -37px;
+    margin-top: -455px;
+}
+
+.iconA p{
+    position: absolute;
+    color: white;
+    margin-left: -36px;
+    margin-top: -395px;
+}
+
+.iconB img{
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    margin-left: -65px;
+    margin-top: -50px;
+}
+
+.iconB p{
+    position: absolute;
+    color: white;
+    margin-top: 45px;
+    margin-left: -35px;
+}
+
+.iconC img{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin-left: -40px;
+    margin-top: 110px;
+}
+
+.iconC p{
+    position: absolute;
+    color: white;
+    margin-top: 190px;
+    margin-left: -45px;
+}
+
+.iconD img{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-left: -70px;
+    margin-top: 340px;
+}
+
+.iconD p{
+    position: absolute;
+    color: white;
+    margin-top: 440px;
+    margin-left: -50px;
+}
+
+.iconE img{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin-left: -45px;
+    margin-top: 245px;
+}
+
+.iconE p{
+    position: absolute;
+    color: white;
+    margin-top: 315px;
+    margin-left: -35px;
+}
+
+.iconF img{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin-left: 69px;
+    margin-top: 365px;
+}
+
+.iconF p{
+    position: absolute;
+    color: white;
+    margin-top: 440px;
+    margin-left: 70px;
+}
+
+
+.bar{
+    position: absolute;
+    height: 40px;
+    width: 550px;
+    margin-right: -435px;
+    margin-top: 973px;
+}
