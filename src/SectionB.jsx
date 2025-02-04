@@ -10,10 +10,10 @@ function SectionB(){
       </div>
       <div className="window98-tabs">
         <button className="tab active">General</button>
-        <a href="https://x.com/NoInternetADino" target="_blank" rel="noopener noreferrer" className="tab">
+        <a href="https://x.com/TheNoInternet" target="_blank" rel="noopener noreferrer" className="tab">
           Twitter
         </a>
-        <a href="https://t.me/nointernetgameai" target="_blank" rel="noopener noreferrer" className="tab">
+        <a href="https://t.me/NoInternetDino" target="_blank" rel="noopener noreferrer" className="tab">
           Telegram
         </a>
         <a href="https://pump.fun" target="_blank" rel="noopener noreferrer" className="tab">
